@@ -18,6 +18,7 @@
 			<th>Class</th>
 			<th>Level</th>
 			<th>Hp</th>
+			<th>Details</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -29,6 +30,7 @@
 				<td>@hero.GetType().Name</td>
 				<td>@hero.Level</td>
 				<td>@hero.Hp</td>
+				<td><a asp-page="/Heroes/HeroDetail" asp-route-name="@hero.Name" asp-route-id="@hero.Id" class="btn btn-info">Details</a></td>
 			</tr>
 		}
 	</tbody>
