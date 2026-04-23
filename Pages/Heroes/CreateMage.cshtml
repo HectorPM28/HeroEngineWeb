@@ -1,0 +1,22 @@
+﻿@page
+@model HeroEngine.Pages.Heroes.CreateMageModel
+@{
+	ViewData["Title"] = "Create Mage";
+}
+
+<h1>CREATION OF MAGE</h1>
+<form method="post">
+	<label>Name: </label>
+	<input type="text" asp-for="MageName" /><br /><br />
+	<label>Level: </label>
+	<input type="text" name="HeroLevel" value="1" class="form-control" readonly /><br /><br />
+	<label>Hp: </label>
+	<input type="text" name="HeroHp" value="100" class="form-control" readonly /><br /><br />
+	<label>Mana: </label>
+	<input type="text" name="HeroMana" value="100" class="form-control" readonly /><br /><br />
+	<label>Arcane Level: </label>
+	<input type="text" name="HeroArcaneLevel" value="1" class="form-control" readonly /><br /><br />
+	<button type="submit" asp-page-handler="Add" class="btn btn-success">
+		Crear Mage
+	</button>
+</form>
