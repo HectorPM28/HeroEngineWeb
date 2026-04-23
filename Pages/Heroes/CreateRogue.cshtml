@@ -1,12 +1,13 @@
 ﻿@page
 @model HeroEngine.Pages.Heroes.CreateRogueModel
 @{
+	ViewData["Title"] = "Create Rogue";
 }
 
 <h1>CREATION OF ROGUE</h1>
-<form>
+<form method="post">
 	<label>Name: </label>
-	<input type="text" /><br /><br />
+	<input type="text" asp-for="RogueName" /><br /><br />
 	<label>Level: </label>
 	<input type="text" name="HeroLevel" value="1" class="form-control" readonly /><br /><br />
 	<label>Hp: </label>
@@ -15,4 +16,7 @@
 	<input type="text" name="HeroMultiplier" value="2" class="form-control" readonly /><br /><br />
 	<label>Hidden daggers: </label>
 	<input type="text" name="HeroDaggers" value="5" class="form-control" readonly /><br /><br />
+	<button type="submit" asp-page-handler="Add" class="btn btn-success">
+		Crear Rogue
+	</button>
 </form>
