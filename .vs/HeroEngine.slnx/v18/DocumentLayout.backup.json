@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\services\\partyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:services\\partyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createmage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createmage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createrogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createrogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createwarrior.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createwarrior.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\heroes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\heroes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createwarrior.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createwarrior.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createrogue.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createrogue.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\createmage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\createmage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,23 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateMage.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateMage.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Heroes\\CreateMage.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateMage.cshtml",
+              "RelativeToolTip": "Pages\\Heroes\\CreateMage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T14:41:03.991Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Heroes.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\Heroes.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Heroes\\Heroes.cshtml.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\Heroes.cshtml.cs",
-              "RelativeToolTip": "Pages\\Heroes\\Heroes.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T14:02:09.048Z",
+              "DocumentIndex": 1,
+              "Title": "CreateWarrior.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateWarrior.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Heroes\\CreateWarrior.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateWarrior.cshtml",
+              "RelativeToolTip": "Pages\\Heroes\\CreateWarrior.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T14:40:28.393Z",
               "EditorCaption": ""
             },
             {
@@ -57,48 +70,35 @@
               "RelativeDocumentMoniker": "Pages\\Heroes\\CreateRogue.cshtml.cs",
               "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateRogue.cshtml.cs",
               "RelativeToolTip": "Pages\\Heroes\\CreateRogue.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T13:59:50.724Z",
+              "WhenOpened": "2026-04-23T14:37:27.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateRogue.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateRogue.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Heroes\\CreateRogue.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateRogue.cshtml",
-              "RelativeToolTip": "Pages\\Heroes\\CreateRogue.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-22T16:01:43.457Z",
+              "DocumentIndex": 2,
+              "Title": "CreateWarrior.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateWarrior.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Heroes\\CreateWarrior.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateWarrior.cshtml.cs",
+              "RelativeToolTip": "Pages\\Heroes\\CreateWarrior.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T14:34:15.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T13:53:39.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PartyService.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Services\\PartyService.cs",
-              "RelativeDocumentMoniker": "Services\\PartyService.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Services\\PartyService.cs*",
-              "RelativeToolTip": "Services\\PartyService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Title": "CreateMage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateMage.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Heroes\\CreateMage.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\CreateMage.cshtml.cs",
+              "RelativeToolTip": "Pages\\Heroes\\CreateMage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T13:46:43.781Z",
+              "WhenOpened": "2026-04-23T14:30:43.462Z",
               "EditorCaption": ""
             }
           ]
