@@ -1,0 +1,32 @@
+﻿@page "{Name}"
+@using HeroEngine.Core.Models.Interfaces
+@model HeroEngine.Pages.Heroes.HeroDetailModel
+@{
+}
+
+<p>@Model.HeroName, @Model.Hero.Id</p>
+<p>Class: @Model.Hero.GetType().Name</p>
+<p>Level: @Model.Hero.Level</p>
+<p>Hp: @Model.Hero.Hp</p>
+@if (Model.Hero is IAbilityUser user)
+{
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Rarity</th>
+				<th>Type</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var ability in user.Abilities)
+			{
+				<tr>
+					<td>@ability.Key</td>
+					<td>@ability.Value.Rarity</td>
+					<td>@ability.Value.Type</td>
+				</tr>
+			}
+		</tbody>
+	</table>	
+}

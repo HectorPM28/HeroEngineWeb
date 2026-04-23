@@ -380,37 +380,5 @@ namespace HeroEngine.Core.UI
                     return new ThunderSmash();
             }
         }
-
-        /// <summary>
-        /// Asks for a name for a AHero
-        /// </summary>
-        /// <returns>A string that represents the name of the hero</returns>
-        private static string NameHero()
-        {
-            string name;
-            Console.WriteLine(UIConfig.Hero.NameHero);
-            name = Console.ReadLine();
-            return name;
-        }
-
-        /// <summary>
-        /// Show a list of AHero with their abilities.
-        /// </summary>
-        /// <param name="party">The list of AHero</param>
-        public static void ShowPartyHeroes(List<AHero> party)
-        {
-            for (int i = 0; i < party.Count; i++)
-            {
-                if (party[i] is IAbilityUser isUser)
-                {
-                    Console.WriteLine($"{i + 1}. {isUser.ToString()}");
-                    isUser.ShowAbilities();
-                }
-                else
-                {
-                    Console.WriteLine($"{i + 1}. {party[i].ToString()}");
-                }
-            }
-        }
     }
 }

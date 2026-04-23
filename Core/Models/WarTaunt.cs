@@ -8,7 +8,7 @@ namespace HeroEngine.Core.Models
 {
     public class Wartaunt : AAbility
     {
-        public Wartaunt() : base("War Taunt", RandomNumsHelper.GetRandomRarity(), EAbilityType.Attack, 15)
+        public Wartaunt() : base("War Taunt", RandomNumsHelper.GetRandomRarity(), EAbilityType.Attack, 15, 4)
         {
         }
         public override void Execute(List<AHero> party, List<AEnemy> enemies, AHero hero)

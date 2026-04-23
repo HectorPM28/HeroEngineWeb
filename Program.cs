@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddSingleton<PartyService>();
+builder.Services.AddSingleton<AbilityService>();
+
 
 var app = builder.Build();
 

@@ -1,0 +1,26 @@
+﻿@page
+@model HeroEngine.Pages.AddAbilityModel
+@{
+}
+<h1>List of abilities</h1>
+<form method="post">
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var ability in Model.Abilities)
+			{
+				<tr>
+					<td>@ability.Name</td>
+					<td>
+						<button type="submit" asp-page-handler="Add" asp-route-idAbility="@ability.Id" asp-route-idHero="@Request.Query["id"]" class="btn btn-success">
+						Give
+					</button></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</form>

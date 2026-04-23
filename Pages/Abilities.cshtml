@@ -1,0 +1,29 @@
+﻿@page
+@model HeroEngine.Pages.AbilitiesModel
+@{
+}
+<h1>Choose a hero to recieve an ability</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Class</th>
+			<th>Level</th>
+			<th>Hp</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var hero in Model.Party)
+		{
+			<tr>
+				<td>@hero.Id</td>
+				<td>@hero.Name</td>
+				<td>@hero.GetType().Name</td>
+				<td>@hero.Level</td>
+				<td>@hero.Hp</td>
+				<td><a asp-page="/AddAbility" asp-route-id="@hero.Id" class="btn btn-info">Give ability</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
