@@ -19,10 +19,10 @@ namespace HeroEngine.Services
             hero.Id = _nextId++;
             _party.Add(hero);
         }
-        public void Update(AHero game)
+        public void Update(AHero hero)
         {
-            var index = _party.FindIndex(g => g.Id == game.Id);
-            if (index >= 0) _party[index] = game;
+            var index = _party.FindIndex(g => g.Id == hero.Id);
+            if (index >= 0) _party[index] = hero;
         }
         public void Delete(int id) => _party.RemoveAll(g => g.Id == id);
     }

@@ -40,9 +40,15 @@ namespace HeroEngine.Pages
                 Party.Add(_partyService.GetById(i));
             }
             Enemies = _enemyService.GetAll();
+
             var target = _enemyService.GetById(idEnemy);
-            target.Hp -= RandomNumsHelper.GetRandomDamage();
-            Usables.EnemyRound(Party, Enemies);
+            int heroDamage = RandomNumsHelper.GetRandomDamage();
+            target.Hp -= heroDamage;
+
+            int enemyDamage = RandomNumsHelper.GetRandomDamage();
+            var hero = Usables.EnemyRound(Party, Enemies, enemyDamage);
+            //Pasar quien recibe daño al log
+            CombatLog.InsertInfoInLog(hero, target, Usables.GetLivingCount(Party), Usables.GetLivingCount(Enemies), heroDamage, enemyDamage);
             return RedirectToPage();
         }
     }

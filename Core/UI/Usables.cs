@@ -33,19 +33,13 @@ namespace HeroEngine.Core.UI
         /// <param name="enemies">List of AEnemy participating in the round</param>
         /// <param name="num">Index of hero choosen</param>
         /// <param name="round">Number of the round</param>
-        public static void EnemyRound(List<AHero> party, List<AEnemy> enemies)
+        public static AHero EnemyRound(List<AHero> party, List<AEnemy> enemies, int damageEnemy)
         {
-
-            string textHero = "Borrar";
-            string textEnemy = "Borrar";
-
             int heroChoosen = GetRandomListIndex(party);
-
-            int damageEnemy = RandomNumsHelper.GetRandomDamage();
 
             party[heroChoosen].GetAttacked(enemies[GetRandomListIndex(enemies)].Attack(damageEnemy));
 
-            //CombatLog.InsertInfoInLog(textHero, textEnemy, round, GetLivingCount(party), 3);
+            return party[heroChoosen];
         }
 
         /// <summary>
@@ -67,7 +61,7 @@ namespace HeroEngine.Core.UI
         /// <typeparam name="T"></typeparam>
         /// <param name="party">List of entities</param>
         /// <returns>Returns the number of entities alive</returns>
-        private static int GetLivingCount<T>(List<T> party) where T : AEntity
+        public static int GetLivingCount<T>(List<T> party) where T : AEntity
         {
             int alive = 0;
             foreach (T entity in party) if (entity.Hp > 0) alive++;

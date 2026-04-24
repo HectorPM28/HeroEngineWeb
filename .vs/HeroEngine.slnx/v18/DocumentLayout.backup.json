@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\core\\ui\\usables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:core\\ui\\usables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\core\\data\\battlelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:core\\data\\battlelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\combat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\combat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\combat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\combat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\core\\data\\combatlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:core\\data\\combatlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Usables.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\UI\\Usables.cs",
-              "RelativeDocumentMoniker": "Core\\UI\\Usables.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\UI\\Usables.cs*",
-              "RelativeToolTip": "Core\\UI\\Usables.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwDgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T15:59:39.684Z",
+              "Title": "BattleLog.txt",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Data\\BattleLog.txt",
+              "RelativeDocumentMoniker": "Core\\Data\\BattleLog.txt",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Data\\BattleLog.txt",
+              "RelativeToolTip": "Core\\Data\\BattleLog.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-24T17:26:30.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Combat.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Combat.cshtml.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml.cs",
-              "RelativeToolTip": "Pages\\Combat.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
+              "Title": "CombatLog.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Data\\CombatLog.cs",
+              "RelativeDocumentMoniker": "Core\\Data\\CombatLog.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Data\\CombatLog.cs",
+              "RelativeToolTip": "Core\\Data\\CombatLog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T15:03:22.051Z",
+              "WhenOpened": "2026-04-24T17:16:31.161Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Combat.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Combat.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml",
-              "RelativeToolTip": "Pages\\Combat.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAjwDIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T14:54:50.75Z"
             }
           ]
         }
