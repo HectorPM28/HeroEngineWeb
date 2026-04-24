@@ -7,6 +7,7 @@ namespace HeroEngine.Core.Models
 {
     public abstract class AEntity
     {
+        public int Id { get; set; }
         public int MaxHp { get; set; } = 100;
         public bool DeadState { get; private set; } = false;
         public int Hp
@@ -39,10 +40,11 @@ namespace HeroEngine.Core.Models
             }
         }
         private int _hp;
-        public AEntity(int hp)
+        public AEntity(int hp, int id)
         {
             MaxHp = hp;
             Hp = hp;
+            Id = id;
         }
         public abstract int Attack(int damage);
         public abstract void GetAttacked(int damage);

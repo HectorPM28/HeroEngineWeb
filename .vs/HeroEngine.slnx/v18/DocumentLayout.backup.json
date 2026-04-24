@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\herodetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\herodetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\core\\ui\\usables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:core\\ui\\usables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\core\\models\\aability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:core\\models\\aability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\combat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\combat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\heroes\\herodetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\heroes\\herodetail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|c:\\users\\isard\\desktop\\heroengineweb\\pages\\combat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49B7C262-F204-60E4-B5F1-DA79397B93F1}|HeroEngine.csproj|solutionrelative:pages\\combat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,42 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AAbility.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Models\\AAbility.cs",
-              "RelativeDocumentMoniker": "Core\\Models\\AAbility.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\Models\\AAbility.cs",
-              "RelativeToolTip": "Core\\Models\\AAbility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Usables.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\UI\\Usables.cs",
+              "RelativeDocumentMoniker": "Core\\UI\\Usables.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Core\\UI\\Usables.cs*",
+              "RelativeToolTip": "Core\\UI\\Usables.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:00:58.218Z",
+              "WhenOpened": "2026-04-24T15:59:39.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HeroDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\HeroDetail.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Heroes\\HeroDetail.cshtml",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\HeroDetail.cshtml",
-              "RelativeToolTip": "Pages\\Heroes\\HeroDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-23T16:54:43.671Z",
+              "DocumentIndex": 1,
+              "Title": "Combat.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Combat.cshtml.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml.cs",
+              "RelativeToolTip": "Pages\\Combat.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T15:03:22.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HeroDetail.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\HeroDetail.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Heroes\\HeroDetail.cshtml.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Heroes\\HeroDetail.cshtml.cs",
-              "RelativeToolTip": "Pages\\Heroes\\HeroDetail.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:54:42.109Z",
-              "EditorCaption": ""
+              "Title": "Combat.cshtml",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Combat.cshtml",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\HeroEngineWeb\\Pages\\Combat.cshtml",
+              "RelativeToolTip": "Pages\\Combat.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAjwDIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-24T14:54:50.75Z"
             }
           ]
         }

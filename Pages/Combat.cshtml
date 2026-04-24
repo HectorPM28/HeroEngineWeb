@@ -1,0 +1,53 @@
+﻿@page
+@model HeroEngine.Pages.CombatModel
+@{
+}
+<h1>List of heroes</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Class</th>
+			<th>Level</th>
+			<th>Hp</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var hero in Model.Party)
+		{
+			<tr>
+				<td>@hero.Name</td>
+				<td>@hero.GetType().Name</td>
+				<td>@hero.Level</td>
+				<td>@hero.Hp</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<h1>List of enemies</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Hp</th>
+			<th>Type</th>
+			<th>Attack</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var enemy in Model.Enemies)
+		{
+			<tr>				
+				<td>@enemy.GetType().Name</td>
+				<td>@enemy.Hp</td>
+				<td>
+					<form method="post" asp-page-handler="Atacar" asp-route-idEnemy="@enemy.Id">
+						<button type="submit"
+								class="btn btn-danger">
+							Attack
+						</button>
+					</form>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

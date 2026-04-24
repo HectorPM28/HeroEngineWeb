@@ -7,6 +7,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddSingleton<PartyService>();
 builder.Services.AddSingleton<AbilityService>();
+builder.Services.AddSingleton<EnemiesService>();
 
 
 var app = builder.Build();
