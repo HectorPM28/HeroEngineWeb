@@ -7,7 +7,7 @@ namespace HeroEngine.Core.Models
 {
     public abstract class AEnemy : AEntity
     {
-        protected AEnemy(int hp) : base(hp)
+        protected AEnemy(int hp, int id) : base(hp, id)
         {
         }
 

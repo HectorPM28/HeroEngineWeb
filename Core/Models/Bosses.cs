@@ -8,7 +8,7 @@ namespace HeroEngine.Core.Models
     {
         public static int BossesHp = 100;
 
-        public Boss(int hp) : base(hp)
+        public Boss(int hp, int id) : base(hp, id)
         {
         }
 

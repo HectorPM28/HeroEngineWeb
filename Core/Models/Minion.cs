@@ -8,7 +8,7 @@ namespace HeroEngine.Core.Models
     {
         public static int MinionBaseHp = 50;
 
-        public Minion(int hp) : base(hp)
+        public Minion(int hp, int id) : base(hp, id)
         {
         }
 

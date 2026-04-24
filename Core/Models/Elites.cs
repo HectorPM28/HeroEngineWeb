@@ -8,7 +8,7 @@ namespace HeroEngine.Core.Models
     public class Elites : AEnemy
     {
         public static int EliteBaseHp = 75;
-        public Elites(int hp) : base(hp)
+        public Elites(int hp, int id) : base(hp, id)
         {
         }
 

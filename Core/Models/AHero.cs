@@ -10,9 +10,8 @@ namespace HeroEngine.Core.Models
     {
         public int Level { get; set; }
         public string Name { get; set; }
-        public int Id { get; set; }
 
-        public AHero(string name, int hp, int level, int id) : base(hp)
+        public AHero(string name, int hp, int level, int id) : base(hp ,id)
         {
             Level = level;
             MaxHp += level;
