@@ -9,7 +9,7 @@ namespace HeroEngine.Core.UI
     {
         static string proyectoRuta = Directory.GetCurrentDirectory();
 
-        static string path = Path.Combine(proyectoRuta, "Core", "Data", "BattleLog.txt");
+        public static string path = Path.Combine(proyectoRuta, "Data", "BattleLog.txt");
 
         public static void InsertInfoInLog(AHero textHero, AEnemy textEnemy, int heroAlive, int enemyAlive, int heroDamage, int enemyDamage)
         {

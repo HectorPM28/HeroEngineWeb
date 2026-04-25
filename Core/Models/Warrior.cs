@@ -12,7 +12,7 @@ namespace HeroEngine.Core.Models
         public static int WarriorBaseHp = 150;
         public Warrior(string name, int hp, int level, int id, int armor, string warScream) : base(name, hp, level, id)
         {
-            Armor = armor + level;
+            Armor = armor;
             WarScream = warScream;
         }
         public override string ToString()

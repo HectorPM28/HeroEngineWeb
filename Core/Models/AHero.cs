@@ -2,10 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 using static HeroEngine.Core.UI.UIConfig;
 
 namespace HeroEngine.Core.Models
 {
+    [JsonDerivedType(typeof(Warrior), typeDiscriminator: "warrior")]
+    [JsonDerivedType(typeof(Mage), typeDiscriminator: "mage")]
+    [JsonDerivedType(typeof(Rogue), typeDiscriminator: "rogue")]
     public abstract class AHero : AEntity
     {
         public int Level { get; set; }
@@ -14,8 +18,6 @@ namespace HeroEngine.Core.Models
         public AHero(string name, int hp, int level, int id) : base(hp ,id)
         {
             Level = level;
-            MaxHp += level;
-            Hp += level;
             Name = name;
             Id = id;
         }

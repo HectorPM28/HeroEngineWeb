@@ -43,7 +43,7 @@ namespace HeroEngine.Core.Models
         public AEntity(int hp, int id)
         {
             MaxHp = hp;
-            Hp = hp;
+            _hp = hp;
             Id = id;
         }
         public abstract int Attack(int damage);
