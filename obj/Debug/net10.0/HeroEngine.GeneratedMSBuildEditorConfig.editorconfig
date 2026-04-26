@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/isard/Desktop/HeroEngineWeb/Pages/Extras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0cmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/isard/Desktop/HeroEngineWeb/Pages/Heroes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVyb2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

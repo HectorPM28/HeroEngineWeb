@@ -19,8 +19,7 @@ namespace HeroEngine.Pages.Heroes
         public void OnGet(string name, int id)
         {
             HeroName = name;
-            Hero = _partyService.GetById(id);
-            
+            Hero = _partyService.GetById(id);            
         }
     }
 }
