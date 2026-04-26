@@ -11,6 +11,9 @@ namespace HeroEngine.Pages.Heroes
         public HeroesModel(PartyService service) => _service = service;
 
         public List<AHero> Party { get; set; } = new();
-        public void OnGet() => Party = _service.GetAll();
+        public void OnGet()
+        {            
+            Party = _service.GetAll();
+        }
     }
 }

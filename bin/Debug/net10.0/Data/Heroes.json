@@ -1,0 +1,36 @@
+[
+  {
+    "$type": "warrior",
+    "Armor": 45,
+    "WarScream": null,
+    "Level": 1,
+    "Name": "Pepe",
+    "Id": 1,
+    "MaxHp": 151,
+    "DeadState": false,
+    "Hp": 151
+  },
+  {
+    "$type": "mage",
+    "MaxMana": 1,
+    "Mana": 13,
+    "ArcaneLevel": 0,
+    "Abilities": {},
+    "Level": 1,
+    "Name": "Juan",
+    "Id": 2,
+    "MaxHp": 101,
+    "DeadState": false,
+    "Hp": 38
+  },
+  {
+    "$type": "rogue",
+    "HiddenDagger": 0,
+    "Level": 1,
+    "Name": "Rodrio",
+    "Id": 3,
+    "MaxHp": 121,
+    "DeadState": false,
+    "Hp": 121
+  }
+]

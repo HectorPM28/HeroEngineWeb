@@ -97,3 +97,4 @@ C:\Users\isard\Desktop\HeroEngineWeb\obj\Debug\net10.0\HeroEngine.pdb
 C:\Users\isard\Desktop\HeroEngineWeb\obj\Debug\net10.0\HeroEngine.genruntimeconfig.cache
 C:\Users\isard\Desktop\HeroEngineWeb\obj\Debug\net10.0\ref\HeroEngine.dll
 C:\Users\isard\Desktop\HeroEngineWeb\obj\Debug\net10.0\HeroEngine.sourcelink.json
+C:\Users\isard\Desktop\HeroEngineWeb\bin\Debug\net10.0\Data\Heroes.json

@@ -1,5 +1,6 @@
 ﻿using HeroEngine.Core.Models;
 using HeroEngine.Core.Models.Interfaces;
+using HeroEngine.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -27,25 +28,32 @@ namespace HeroEngine.Core.UI
         }
 
         /// <summary>
-        /// Starts a combat round
+        /// Starts an enemy combat round
         /// </summary>
         /// <param name="party">List of AHero participating in the round</param>
         /// <param name="enemies">List of AEnemy participating in the round</param>
         /// <param name="num">Index of hero choosen</param>
         /// <param name="round">Number of the round</param>
-        public static void EnemyRound(List<AHero> party, List<AEnemy> enemies)
+        public static AHero EnemyRound(List<AHero> party, List<AEnemy> enemies, int damageEnemy)
         {
-
-            string textHero = "Borrar";
-            string textEnemy = "Borrar";
-
             int heroChoosen = GetRandomListIndex(party);
-
-            int damageEnemy = RandomNumsHelper.GetRandomDamage();
 
             party[heroChoosen].GetAttacked(enemies[GetRandomListIndex(enemies)].Attack(damageEnemy));
 
-            //CombatLog.InsertInfoInLog(textHero, textEnemy, round, GetLivingCount(party), 3);
+            return party[heroChoosen];
+        }
+
+        /// <summary>
+        /// Starts an enemy combat round
+        /// </summary>
+        /// <param name="party">List of AHero participating in the round</param>
+        /// <param name="enemies">List of AEnemy participating in the round</param>
+        /// <param name="num">Index of hero choosen</param>
+        /// <param name="round">Number of the round</param>
+        public static void HeroRound(List<AHero> party, AEnemy enemy, int heroDamage)
+        {
+            int heroChoosen = GetRandomListIndex(party);
+            enemy.GetAttacked(party[heroChoosen].Attack(heroDamage));
         }
 
         /// <summary>
@@ -67,7 +75,7 @@ namespace HeroEngine.Core.UI
         /// <typeparam name="T"></typeparam>
         /// <param name="party">List of entities</param>
         /// <returns>Returns the number of entities alive</returns>
-        private static int GetLivingCount<T>(List<T> party) where T : AEntity
+        public static int GetLivingCount<T>(List<T> party) where T : AEntity
         {
             int alive = 0;
             foreach (T entity in party) if (entity.Hp > 0) alive++;
@@ -84,24 +92,7 @@ namespace HeroEngine.Core.UI
         {
             foreach (T entity in party) if (entity.Hp > 0) return true;
             return false;
-        }
-
-        /// <summary>
-        /// Restarts the list of AHero stats
-        /// </summary>
-        /// <param name="party">List of AHero whose stats will be restarted</param>
-        public static void RestartPartyAfterBattle(List<AHero> party)
-        {
-            foreach (AHero hero in party)
-            {
-                hero.Hp = hero.MaxHp;
-                if (hero is IAbilityUser isUser)
-                {
-                    isUser.Mana = isUser.MaxMana;
-                }
-            }
-        }
-
+        }       
 
         /// <summary>
         /// Generates a random type of AEnemy

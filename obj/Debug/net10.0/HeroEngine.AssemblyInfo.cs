@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeroEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c304abab0bf9d2546fd99e34d1dd97bb9f5eac6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28d741d133807163474a2520b4ee8f9fb72130f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeroEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeroEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

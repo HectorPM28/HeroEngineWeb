@@ -1,4 +1,5 @@
 using HeroEngine.Core.Models;
+using HeroEngine.Core.Models.Interfaces;
 using HeroEngine.Core.UI;
 using HeroEngine.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -22,27 +23,36 @@ namespace HeroEngine.Pages
 
         public void OnGet()
         {
-            for(int i = 1; i < 4; i++)
-            {
-                Party.Add(_partyService.GetById(i));
-            }
+            var allHeroes = _partyService.GetAll();
+            Party = allHeroes.Take(3).ToList();
+
             Enemies = _enemyService.GetAll();
             if (!Usables.CheckPartyState(Enemies) || !Usables.CheckPartyState(Party))
             {
                 Enemies = _enemyService.RestartList();
-                Usables.RestartPartyAfterBattle(Party);
+                _partyService.RestartPartyAfterBattle(allHeroes);
             }
         }
         public IActionResult OnPostAtacar(int idEnemy)
         {
+            var allHeroes = _partyService.GetAll();
+
             for (int i = 1; i < 4; i++)
             {
                 Party.Add(_partyService.GetById(i));
             }
             Enemies = _enemyService.GetAll();
+
             var target = _enemyService.GetById(idEnemy);
-            target.Hp -= RandomNumsHelper.GetRandomDamage();
-            Usables.EnemyRound(Party, Enemies);
+            int heroDamage = RandomNumsHelper.GetRandomDamage();
+
+            Usables.HeroRound(Party, target, heroDamage);
+
+            int enemyDamage = RandomNumsHelper.GetRandomDamage();
+            var hero = Usables.EnemyRound(Party, Enemies, enemyDamage);
+            _partyService.SaveHeroes(allHeroes);
+
+            CombatLog.InsertInfoInLog(hero, target, Usables.GetLivingCount(Party), Usables.GetLivingCount(Enemies), heroDamage, enemyDamage);
             return RedirectToPage();
         }
     }
