@@ -4,6 +4,8 @@ using HeroEngine.Core.UI;
 using HeroEngine.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Xml.Serialization;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HeroEngine.Pages
 {
@@ -23,8 +25,9 @@ namespace HeroEngine.Pages
 
         public void OnGet()
         {
+            var config = GetConfig();
             var allHeroes = _partyService.GetAll();
-            Party = allHeroes.Take(3).ToList();
+            Party = allHeroes.Take(config.MaxHeroesPerBattle).ToList();
 
             Enemies = _enemyService.GetAll();
             if (!Usables.CheckPartyState(Enemies) || !Usables.CheckPartyState(Party))
@@ -35,9 +38,10 @@ namespace HeroEngine.Pages
         }
         public IActionResult OnPostAtacar(int idEnemy)
         {
+            var config = GetConfig();
             var allHeroes = _partyService.GetAll();
 
-            for (int i = 1; i < 4; i++)
+            for (int i = 1; i < config.MaxHeroesPerBattle; i++)
             {
                 Party.Add(_partyService.GetById(i));
             }
@@ -54,6 +58,16 @@ namespace HeroEngine.Pages
 
             CombatLog.InsertInfoInLog(hero, target, Usables.GetLivingCount(Party), Usables.GetLivingCount(Enemies), heroDamage, enemyDamage);
             return RedirectToPage();
+        }
+        private GameConfig GetConfig()
+        {
+            string path = @"C:\Users\isard\Desktop\HeroEngineWeb\Data\GameConfig.xml";
+
+            XmlSerializer serializer = new XmlSerializer(typeof(GameConfig));
+            using (FileStream fs = new FileStream(path, FileMode.Open))
+            {
+                return (GameConfig)serializer.Deserialize(fs);
+            }
         }
     }
 }
