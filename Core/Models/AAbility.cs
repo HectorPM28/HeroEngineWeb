@@ -4,19 +4,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace HeroEngine.Core.Models
-{
+{ 
     public abstract class AAbility : IAbility
     {
         public int Id { get; set; }
-        public string Name { get; }
+        public string Name { get; set; }
 
-        public ERarities Rarity { get; }
+        public ERarities Rarity { get; set; }
 
-        public EAbilityType Type { get; }
+        public EAbilityType Type { get; set; }
 
-        public int Cost { get; }
+        public int Cost { get; set; }
         public AAbility(string name, ERarities rarity, EAbilityType type, int cost, int id)
         {
             Name = name;
