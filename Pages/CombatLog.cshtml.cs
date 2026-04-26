@@ -12,7 +12,6 @@ namespace HeroEngine.Pages
         {
             try
             {
-                //Solo lee el texto
                 using StreamReader sr = new StreamReader(CombatLog.path);
                 while ((_line = sr.ReadLine()) != null)
                 {

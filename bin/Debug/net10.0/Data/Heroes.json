@@ -13,9 +13,17 @@
   {
     "$type": "mage",
     "MaxMana": 1,
-    "Mana": 13,
+    "Mana": 18,
     "ArcaneLevel": 0,
-    "Abilities": {},
+    "Abilities": {
+      "Thunder Smash": {
+        "Id": 1,
+        "Name": "Thunder Smash",
+        "Rarity": 20,
+        "Type": 0,
+        "Cost": 50
+      }
+    },
     "Level": 1,
     "Name": "Juan",
     "Id": 2,
@@ -32,5 +40,18 @@
     "MaxHp": 121,
     "DeadState": false,
     "Hp": 121
-  }
+  },
+    {
+        "$type": "mage",
+        "MaxMana": 101,
+        "Mana": 105,
+        "ArcaneLevel": 1,
+        "Abilities": {},
+        "Level": 1,
+        "Name": "dg",
+        "Id": 4,
+        "MaxHp": 100,
+        "DeadState": false,
+        "Hp": 100
+    }
 ]

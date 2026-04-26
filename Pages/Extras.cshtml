@@ -1,0 +1,101 @@
+﻿@page
+@model HeroEngine.Pages.ExtrasModel
+@{
+}
+<h1>List of mages</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Percentage</th>
+		</tr>
+	</thead>
+	<tbody>
+			@foreach (var mage in Model.Mages)
+			{
+				<tr>
+					<td>@mage.Name</td>
+					<td>@(((double)Model.Mages.Count / Model.Party.Count) * 100)%</td>
+				</tr>
+			}
+	</tbody>
+</table>
+<h1>List of warriors</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Percentage</th>
+		</tr>
+	</thead>
+	<tbody>
+			@foreach (var warrior in Model.Warriors)
+			{
+				<tr>
+					<td>@warrior.Name</td>
+					<td>@(((double)Model.Warriors.Count / Model.Party.Count) * 100)%</td>
+				</tr>
+			}
+	</tbody>
+</table>
+<h1>List of rogues</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Percentage</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var rogue in Model.Rogue)
+		{
+			<tr>
+				<td>@rogue.Name</td>
+				<td>@(((double)Model.Rogue.Count / Model.Party.Count) * 100)%</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<h1>Best Heroes</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Class</th>
+			<th>Level</th>
+			<th>Hp</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var hero in Model.BestHeroes)
+		{
+			<tr>
+				<td>@hero.Id</td>
+				<td>@hero.Name</td>
+				<td>@hero.GetType().Name</td>
+				<td>@hero.Level</td>
+				<td>@hero.Hp</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<h2>Common abilities</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>Habilidad</th>
+			<th>Total de veces</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.TopAbilities)
+		{
+			<tr>
+				<td>@item.Key</td>
+				<td>@item.Value</td>
+			</tr>
+		}
+	</tbody>
+</table>
