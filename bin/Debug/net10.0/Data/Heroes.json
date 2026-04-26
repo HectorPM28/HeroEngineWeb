@@ -15,15 +15,6 @@
     "MaxMana": 1,
     "Mana": 18,
     "ArcaneLevel": 0,
-    "Abilities": {
-      "Thunder Smash": {
-        "Id": 1,
-        "Name": "Thunder Smash",
-        "Rarity": 20,
-        "Type": 0,
-        "Cost": 50
-      }
-    },
     "Level": 1,
     "Name": "Juan",
     "Id": 2,
@@ -46,7 +37,6 @@
         "MaxMana": 101,
         "Mana": 105,
         "ArcaneLevel": 1,
-        "Abilities": {},
         "Level": 1,
         "Name": "dg",
         "Id": 4,

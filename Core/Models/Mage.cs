@@ -6,7 +6,7 @@ using System.Text;
 
 namespace HeroEngine.Core.Models
 {
-    public class Mage : AHero, IAbilityUser
+    public class Mage : AHero//, IAbilityUser
     {
         public int MaxMana { get; set; }
         public int Mana { get; set; }
