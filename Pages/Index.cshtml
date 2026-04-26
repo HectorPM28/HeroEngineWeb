@@ -4,7 +4,29 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Hero Engine</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Hero Engine</h1>
+
+<div>
+    We have @Model.HeroCount heroes. wow!
 </div>
+
+<h3>Newest heroes</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Level</th>
+            <th>Class</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hero in Model.LastHeroes)
+        {
+            <tr>
+                <td>@hero.Name</td>
+                <td>@hero.Level</td>
+                <td>@hero.GetType().Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
